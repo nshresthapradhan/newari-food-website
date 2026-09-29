@@ -1,0 +1,502 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Arial;
+	
+}
+/*Pulldown Menu Styles*/
+html {
+	width:100%;
+}
+h2 {
+   color:grey;
+   font-size:30px;
+   text-align: center;
+   font-family: Arial, cursive;
+   font-weight:lighter:
+}
+#figure {
+	padding:50px;
+	
+	
+	
+}
+
+
+/* Page Body Styles */
+
+header img {
+	width:100%;
+}
+
+body {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   max-width: 1000px;
+   min-width: 840px; 
+      
+}
+div#figure {
+  width:100%;
+  margin: 10px auto 50px;
+  margin: gride;
+  grid-gap: 30px;
+	
+}
+div#figure {
+	width: 100%;
+	cursor:pointer;
+}
+div#figure:hover{
+	display:block;
+}
+div#figure img{
+	width:30%;
+	margin:10px;
+}	
+/* Image Styles */
+
+  
+
+
+
+
+
+.Cuisine_History {
+	max-width:100%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+	text-align: left;
+}
+.Cuisine_History h2 {
+	text-align: left;
+	font-size: 1.5em;
+	margin-top: 20px;
+	margin-bottom:10px;
+	color: black;
+}
+	ul {
+	list-style-position:inside;
+}
+	
+
+
+
+section#sub {
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+   color: grey;
+}
+
+
+/* Specials Styles */
+
+div.special{
+   min-height: 400px;
+   outline: 1px dashed rgb(71, 29, 33);
+   width: 90%;
+   margin: 30px auto;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-gap: 15px;
+}
+
+
+/* Page Body Styles */
+body {
+   background-color: rgb(192, 192, 192);
+   font-family: Verdana, Geneva, Arial, sans-serif;   
+ 
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+	margin:1.2em 0;
+
+	
+	
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+	border:3px solid black;
+	border-radius: 20px;
+   
+	
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    
+	border-bottom: 1px solid #ddd;
+	border-left:1px solid #ddd;
+	
+	 grid-template-rows: 100px 300px;
+	 grid-template-columns: auto auto auto auto;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+/* Horizontal Navigation List Styles */
+ul.horizontal li {
+	display:inline-block;
+	text-align: center;
+    padding: 5px 20px;
+}
+ul.horizontal li a {
+	color:rgb(101, 0, 25);
+}
+
+
+nav>ul.horizontal{
+	border: 5px;
+	display: block;
+	color:rgb(240,255,240);
+}
+
+nav ul.horizontal>ul>li {
+   display: inline-block;
+   float: left;
+   width:16%;
+   text-decoration: none;
+   padding: 35px, 38px;
+   word-spacing: 30px;
+}
+
+nav.horizontal >ul>li>a {
+   display: block;
+   font-family: arial, cursive;
+   text-align: center;
+   
+}  
+nav.horizontal >ul{
+	overflow: auto;
+}
+
+/* Grid Styles */
+ul.submenu {
+	display: none;
+	position: absolute;
+}
+a.submenuTitle:hover+ul.submenu,ul.submenu:hover{
+	display:block;
+}
+ul.submenu > li{
+	background-color:grey;
+	display: block;
+}
+ul.submenu > li> a{
+	color:rgb(0, 52, 101) ;
+	font-size: 1em;
+	text-align: left;
+	line-height: 2em;
+	display:block;
+	
+}
+nav.horizontal a:link, nav.horizontal a:visited {
+   color: grey;
+   text-align: center;
+   border: 3px;
+   display:block;
+}
+
+nav.horizontal a:hover, 
+nav.horizontal a:active {
+   background-color:rgb(0, 52, 101);
+   display:block;
+}   
+
+/* Section Styles */
+
+}
+
+
+
+
+section#main {
+   padding-left: 20px;
+}
+
+
+header {
+	
+}
+/* Article Styles */
+article{ 
+border: 2px;
+width:100%;
+display:block;
+} 
+article img{ 
+width: 300px;
+Height:250px;
+}
+
+
+article h1 {
+   font-family: arial, cursive;
+   font-size: 1.2em;
+   font-weight: normal;
+   margin: 2em 1;
+  
+
+   
+}
+
+article p {
+   line-height: 1.5em;
+   margin-bottom:0.5em;
+   
+}
+article > h2 {
+   font-family: arial, cursive;
+   font-size: 1.2em;
+   font-weight: normal;
+   margin: 0.5em 0;
+   line-height: 2em;
+   
+
+}
+
+/* Specials Styles */
+
+.recipe-festival-container p{
+	margin: 40px;
+}
+
+
+section.h1{
+	width:100%;
+	
+
+}
+
+
+.recipe-festival-container {
+    max-width:100%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+	border:2px;
+	height: 100%;
+	overflow: hidden;
+    
+	
+}
+.recipe-festival-container img.festival {
+	float: left;
+	margin:10px;
+	
+}
+
+.recipe-festival-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+	margin-top: 20px;
+    
+}
+
+
+.recipe-section {
+    margin-bottom: 30px;
+	
+	
+
+}
+
+
+.recipe-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+	text-align:horizontal;
+	
+}
+	
+
+
+.recipe-section ul {
+    list-style: discimal;
+    margin-left: 20px;
+    color: #666;
+	width:100%;
+	text-align: left;
+	
+}
+	
+
+
+
+.recipe-section ol {
+    list-style: decimal;
+    margin-left: 20px;
+    color: #666;
+	
+   text-align: left;
+ 
+}
+
+div.specials {
+   padding: 20px;
+   color: black;
+   font-size: 1em;
+   background-color:white;
+}
+
+
+div.specials h1 {
+   font-family: arial, cursive;
+   font-size: 1em;
+   color:black;
+   margin: 0.5em;
+   text-align: center;
+   
+
+  
+}
+div.specials img{
+	width:100%;
+	
+}
+
+
+div.specials a {
+   color: rgb(186, 186, 156);
+   border: auto;
+   
+}
+nav#bottom img{
+    display:inline-block;
+	
+	float:none;
+    text-align:center;
+}
+	
+
+/* Footer Styles */
+footer{
+	width:100%;
+	text-align:center;
+}
+
+
+nav#bottom img{
+	display: inline-block;
+	display: absolute;
+	float: none;
+	width: 100%;
+    text-align:center;
+	display:inline-block;
+	float:left;
+}
+	
+nav#bottom >ul >li {
+   font-size: 1em;
+   line-height: 1.8em;
+   width:10%;
+   display:inline-block;
+   display:absolute;
+}
+
+
+
+nav#bottom > ul >a {
+   color: black;
+}
+
+footer p {
+   color: rgb(211, 211, 211);
+   font-size: 1em;
+   text-align: center;
+   background-color: black;
+   margin: 30px;
+   padding: 0px 0px;
+   display:inline-block;
+
+}
+nav#bottom ul {
+  display:flex;
+  justify-content: center;
+}
+section{
+   margin: auto;
+   padding: 30px;
+   width: 100%;
+	
+}
+form {
+	border:2px solid  black;
+	border-radius: 10px;
+	
+	
+}
+.contact-form h1{
+	color: grey;
+	padding-top:20px;
+	text-align: center;
+	font-size: 10px;
+	font-family:arial, cursive;
+
+}
+ .form-container input { 
+    background-color: white;
+	width:80%;
+	margin-left:3.5em;
+    font-size: 20px;
+	padding:18px 16px;
+	border-radius: 20px;
+	border-color: black;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+	
+ }
+	
+.form-container textarea { 
+    background-color: white;
+	width: 80%;
+	margin-left:3.5em;
+	font-size: 20px;
+	padding: 18px 16px;
+	border-radius: 20px;
+	border-color: black;
+	margin-bottom: 20px;
+	font-family:arial, cursive;
+}
+
+.submit {
+	
+   border-radius: 10px;
+   border-color: dark grey;
+   font-size: 20px;
+   padding: 20px 18px;
+   text-align: center;
+   cursor:pointer;
+}
+div#button{
+	margin:auto;
+	width: 50%;
+}
+	
+
+
